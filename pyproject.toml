@@ -1,0 +1,13 @@
+# pyproject.toml
+[project]
+name = "ntslib"
+version = "0.1.0"
+description = "Network Traffic Surveillance Library"
+authors = [{name = "AD"}]
+dependencies = [
+    "scapy>=2.5.0"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
